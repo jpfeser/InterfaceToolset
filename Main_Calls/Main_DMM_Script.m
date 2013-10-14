@@ -13,7 +13,7 @@ Load_Materials
 % follow the examples
 
 T = logspace(0,3,20)'; %vector of temperatures (K) to evaluate G for, 
-G_DMM = Evaluate_DMM(T,Material_Al,Material_Si); %applies DMM model using 3rd order polynomial phonon dispersion
+G_DMM = Evaluate_DMM(T,Material_ScN,Material_HfN); %applies DMM model using 3rd order polynomial phonon dispersion
 
 loglog(T,G_DMM)
 figure(gcf)

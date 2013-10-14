@@ -49,3 +49,11 @@ omegaM(2) = 117e2*3e8*2*pi; %cm^-1
 omegaM(3) = 117e2*3e8*2*pi; %cm^-1
 vs = [6206 3965 3965];
 Material_HfN = Define_Material(omegaM,vs,a);
+
+%GaAs
+a =  5.6500e-10; %lattice constant
+omegaM(1) = 6.8e12*2*pi; %maximum frequency
+omegaM(2) = 2.4e12*2*pi; %
+omegaM(3) = 2.4e12*2*pi; %
+vs = [4.73 3.35 3.35]*1e3;
+Material_GaAs = Define_Material(omegaM,vs,a);
